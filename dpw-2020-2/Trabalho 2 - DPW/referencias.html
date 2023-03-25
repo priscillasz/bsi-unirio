@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho 2 – DPW</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="referencias.css">
+</head>
+<body>
+    <!--MENU DE NAVEGAÇÃO-->
+    <nav class="navbar">
+        <div class="div-icon">
+            <a href="index.html" target="_self">
+                <img class="logo" src="imagens/ow_logo.png" alt="Logo Overwatch">
+            </a>
+        </div>
+        <ul class="navlinks" id="navlist" style="background-color: #353C40;">
+            <li class="list-item"><a href="index.html" target="_self">Overwatch Store</a></li>
+            <li class="list-item"><a href="produtos.html" target="_self">Produtos</a></li>
+            <li class="list-item"><a href="origem.html" target="_self">Origem</a></li>
+            <li class="list-item"><a href="quiz.html" target="_self">Quiz</a></li>
+            <li class="list-item"><a href="referencias.html" target="_self">Referências</a></li>
+        </ul>
+        <div class="menu" id="toggle-button">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+        </div>
+    </nav>
+
+    <!--MAIN-->
+    <main class="referencias">
+        <!--REFERÊNCIAS-->
+        <h2>Referências</h2>
+        <p>Nós da Overwatch Store separamos também conteúdo relacionado ao jogo que achamos que você vai gostar. Veja mais abaixo:</p>
+
+        <section>
+            <!--OVERWATCH LEAGUE-->
+            <div class="column">
+                <h2>Overwatch League</h2>
+                <img class="imgref" id="img1" onmouseover="setNewImg()" onmouseout="setOldImg()" src="imagens/owl.jpg" alt="Overwatch League Logo">
+                <p>A Overwatch League é uma liga de criada pela Blizzard Entertainment para a competição profissional de Overwatch. Foi anunciada em 4 de novembro de 2016 na BlizzCon 2016. Se você gosta de e-sports, com certeza vai gostar da OWL! Por isso, não deixe de assistir à quarta temporada da Overwatch League! Você ainda ganha 5 tokens a cada 1 hora de partidas assistidas!</p>
+                <a href="https://overwatchleague.com/en-us" target="_blank" class="botao">Veja mais</a>
+            </div>
+            
+            <!--JOGABILIDADE-->
+            <div class="column">
+                <h2>Dicas de Jogabilidade</h2>
+                <img class="imgref" id="img4" onmouseover="setNewImg4()" onmouseout="setOldImg4()" src="imagens/skill.jpg" alt="Overwatch League Teams">
+                <p>Se você está aprendendo a jogar ou quer melhorar suas habilidades, esse conteúdo aqui é especial para você! Separamos um dos melhores canais de Overwatch com as melhores dicas para você aperfeiçoar as suas skills e conhecer novos truques e estratégias de cada herói e mapa do jogo.</p>
+                <a href="https://youtube.com/c/KarQGames" target="_blank" class="botao">Veja mais</a>
+            </div>
+        </section>
+
+        <section>
+            <!--LOFI-->
+            <div class="column">
+                <h2>Overwatch Lofi</h2>
+                <img class="imgref" id="img3" onmouseover="setNewImg3()" onmouseout="setOldImg3()" src="imagens/lofi.jpg" alt="Lofi">
+                <p>Quer uma trilha sonora perfeita para jogar Overwatch ou até mesmo para estudar? Desfrute da seleção <span class="tooltip">lofi<span class="tooltiptext">Lo-fi (atualmente conhecido como lo-fi hip hop) é um estilo de produção musical que usa técnicas de gravação de baixa fidelidade (low fidelity)</span></span> criada pela Overwatch League!</p>
+                <a href="https://youtu.be/dp4miziEOvQ" target="_blank" class="botao">Veja mais</a> 
+            </div>
+            
+            <!--LONDON CALLING-->
+            <div class="column">
+                <h2>Tracer - London Calling</h2>
+                <img class="imgref" id="img2" onmouseover="setNewImg2()" onmouseout="setOldImg2()" src="imagens/tracer.jpg" alt="Capa do quadrinho London Calling">
+                <p>Para os amantes do lore de Overwatch, o quadrinho "Tracer - London Calling", escrito por Mariko Tamari, foca na história da personagem Tracer após o fim da organização Overwatch.</p>
+                <a href="https://playoverwatch.com/en-us/media/stories/tracer-london-calling-1/" target="_blank" class="botao">Veja mais</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer-item">Priscilla Souza, 2021</p>
+        <p class="footer-item">Desenvolvimento de Páginas Web</p>
+        <p class="footer-item">BSI - UNIRIO</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

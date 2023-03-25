@@ -1,0 +1,17 @@
+# Given an array of integer nums and an integer target, return indices of the two numbers that they add up to target.
+
+# colocar todos os elementos da lista em uma hash table
+    # key = elementos que foram encontrados na lista
+    # value = o valor de cada elemento em particular
+# varrer a hash table e encontrar um número para ser o target (complement)
+# acessar o complement (já que as chaves são elementos da hash table pode-se retornar o seu índice (o valor da chave é o índice do elemento)
+
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        hashmap = {}
+        for i in range(len(nums)):
+            hashmap[nums[i]] = i
+        for i in range(len(nums)):
+            complement = target - nums[i]
+            if complement in hashmap and hashmap[complement] != i:
+                return [i, hashmap[complement]] 

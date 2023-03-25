@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho 2 – DPW</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <!--MENU DE NAVEGAÇÃO-->
+    <nav class="navbar">
+        <div class="div-icon">
+            <a href="index.html" target="_self">
+                <img class="logo" src="imagens/ow_logo.png" alt="Logo Overwatch">
+            </a>
+        </div>
+        <ul class="navlinks" id="navlist" style="background-color: #353C40;">
+            <li class="list-item"><a href="index.html" target="_self">Overwatch Store</a></li>
+            <li class="list-item"><a href="produtos.html" target="_self">Produtos</a></li>
+            <li class="list-item"><a href="origem.html" target="_self">Origem</a></li>
+            <li class="list-item"><a href="quiz.html" target="_self">Quiz</a></li>
+            <li class="list-item"><a href="referencias.html" target="_self">Referências</a></li>
+        </ul>
+        <div class="menu" id="toggle-button">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+        </div>
+    </nav>
+
+    <!--MAIN-->
+    <main class="quiz">
+        <!--QUIZ-->
+        <div class="campoquiz">
+            <h2>Quiz</h2>
+            <p>Gostaríamos de saber mais a respeito das suas preferências em relação ao Overwatch. Para isso, realize o quiz abaixo! Não se esqueça de inserir a sua <span class="tooltip">battletag!<span class="tooltiptext">Nome escolhido pelos jogadores que identifica a sua conta Blizzard nos jogos da Blizzard Entertainment.</span></span></p>
+
+            <form>
+                <!--PERGUNTA 1-->
+                <div class="campo">
+                    <label class="pergunta">1. Informe sua Battletag: </label>
+                    <input type="text" name="battletag" id="battletag">
+                </div>
+
+                <!--PERGUNTA 2-->
+                <div class="campo">
+                    <label class="pergunta">2. Qual a "role" que você mais joga?</label>
+                    <label>
+                        <input type="radio" name="role" value="tank"> Tanque
+                    </label>
+                    <label>
+                        <input type="radio" name="role" value="dps"> Dano
+                    </label>
+                    <label>
+                        <input type="radio" name="role" value="sup"> Suporte
+                    </label>
+                </div>
+
+                <!--PERGUNTA 3-->
+                <div class="campo">
+                    <label class="pergunta">3. Qual é o seu mapa favorito de Overwatch?</label>
+                    <select name="timefav">
+                        <option value="hanamura">Hanamura</option>
+                        <option value="horizon">Horizon Lunar Colony</option>
+                        <option value="paris">Paris</option>
+                        <option value="anubis">Temple of Anubis</option>
+                        <option value="volskaya">Volskaya Industries</option>
+                        <option value="dorado">Dorado</option>
+                        <option value="havana">Havana</option>
+                        <option value="junkertown">Junkertown</option>
+                        <option value="rialto">Rialto</option>
+                        <option value="route">Route 66</option>
+                        <option value="gibraltar">Watchpoint: Gibraltar</option>
+                        <option value="bliworld">Blizzard World</option>
+                        <option value="eichenwalde">Eichenwalde</option>
+                        <option value="hollywood">Hollywood</option>
+                        <option value="kingsrow">King's Row</option>
+                        <option value="numbani">Numbani</option>
+                        <option value="busan">Busan</option>
+                        <option value="ilios">Ilios</option>
+                        <option value="lijiang">Lijiang Tower</option>
+                        <option value="nepal">Nepal</option>
+                        <option value="oasis">Oasis</option>
+                    </select>
+                </div>
+
+                <!--PERGUNTA 4-->
+                <div class="campo">
+                    <label class="pergunta">4. Qual é o seu herói favorito de Overwatch? </label>
+                    <input type="text" name="heroifav" id="heroifav">
+                </div>
+
+                <!--PERGUNTA 5-->
+                <div class="campo">
+                    <label class="pergunta">5. Qual é o seu evento favorito de Overwatch?</label>
+                    <label>
+                        <input type="radio" name="evento" value="lunarnewyear"> Lunar New Year
+                    </label>
+                    <label>
+                        <input type="radio" name="evento" value="archives"> Overwatch Archives
+                    </label>
+                    <label>
+                        <input type="radio" name="evento" value="anniversary"> Anniversary
+                    </label>
+                    <label>
+                        <input type="radio" name="evento" value="summer"> Summer Games
+                    </label>
+                    <label>
+                        <input type="radio" name="evento" value="halloween"> Halloween Terror
+                    </label>
+                    <label>
+                        <input type="radio" name="evento" value="winter"> Winter Wonderland
+                    </label>
+                </div>
+
+                <!--PERGUNTA 6-->
+                <div class="campo">
+                    <label class="pergunta">6. Qual é a comp de Overwatch que você mais gosta?</label>
+                    <label>
+                        <input type="radio" name="comp" value="dive"> Dive
+                    </label>
+                    <label>
+                        <input type="radio" name="comp" value="reinzarya"> Rein-Zarya
+                    </label>
+                    <label>
+                        <input type="radio" name="comp" value="goats"> Goats
+                    </label>
+                    <label>
+                        <input type="radio" name="comp" value="doubleshield"> Double Shield
+                    </label>
+                    <label>
+                        <input type="radio" name="comp" value="doublebubble"> Double Bubble
+                    </label>
+                    <label>
+                        <input type="radio" name="comp" value="doublesniper"> Double Sniper
+                    </label>
+                    <label>
+                        <input type="radio" name="comp" value="bunker"> Bunker
+                    </label>
+                    <label>
+                        <input type="radio" name="comp" value="outro"> Outro
+                    </label>
+                </div>
+
+                <!--PERGUNTA 7-->
+                <div class="campo">
+                    <label class="pergunta">7. Qual é o seu time favorito da Overwatch League?</label>
+                    <select name="timefav">
+                        <option value="reign">Atlanta Reign</option>
+                        <option value="uprising">Boston Uprising</option>
+                        <option value="hunters">Chengdu Hunters</option>
+                        <option value="fuel">Dallas Fuel</option>
+                        <option value="mayhem">Florida Mayhem</option>
+                        <option value="charge">Guangzhou Charge</option>
+                        <option value="spark">Hangzhou Spark</option>
+                        <option value="outlaws">Houston Outlaws</option>
+                        <option value="spitfire">London Spitfire</option>
+                        <option value="gladiators">Los Angeles Gladiators</option>
+                        <option value="valiant">Los Angeles Valiant</option>
+                        <option value="nyxl">New York Excelsior</option>
+                        <option value="eternal">Paris Eternal</option>
+                        <option value="fusion">Philadelphia Fusion</option>
+                        <option value="shock">San Francisco Shock</option>
+                        <option value="dynasty">Seoul Dynasty</option>
+                        <option value="dragons">Shanghai Dragons</option>
+                        <option value="defiant">Toronto Defiant</option>
+                        <option value="titans">Vancouver Titans</option>
+                        <option value="justice">Washington Justice</option>
+                    </select>
+                </div>
+
+                <!--PERGUNTA 8-->
+                <div class="campo">
+                    <label class="pergunta">8. Qual é o seu jogador favorito da Overwatch League?</label>
+                    <input type="text" name="owlplayer" id="owlplayer">
+                </div>
+
+                <!--PERGUNTA 9-->
+                <div class="campo">
+                    <label class="pergunta">9. O que você mais espera de Overwatch 2?</label>
+                    <label>
+                        <input type="checkbox" name="ow2" value="mapas"> Novos mapas
+                    </label>
+                    <label>
+                        <input type="checkbox" name="ow2" value="herois"> Novos heróis
+                    </label>
+                    <label>
+                        <input type="checkbox" name="ow2" value="modos"> Novos modos de jogo
+                    </label>
+                </div>
+
+                <!--PERGUNTA 10-->
+                <div class="campo">
+                    <label class="pergunta">10. Cite uma habilidade que você gostaria que um herói do jogo possuísse:</label>
+                    <textarea rows="6" id="conceito" name="conceito"></textarea>
+                </div>
+
+                <!--BOTÃO ENVIAR-->
+                <button class="botao" type="submit" value="enviar">Enviar</button>
+            </form>
+        </div>
+    </main>
+
+    <!--FOOTER-->
+    <footer class="footer" style="padding-top: 35px; padding-bottom: 35px;">
+        <p class="footer-item">Priscilla Souza, 2021</p>
+        <p class="footer-item">Desenvolvimento de Páginas Web</p>
+        <p class="footer-item">BSI - UNIRIO</p>
+    </footer>
+
+    <!--JAVASCRIPT-->
+    <script src="script.js"></script>
+</body>
+</html>

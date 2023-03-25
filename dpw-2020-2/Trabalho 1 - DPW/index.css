@@ -1,0 +1,425 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+    /*-------------GERAL-------------*/
+body {
+    background-color: #F8F8F8;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #F20519;
+}
+
+h2 {
+    color: #F20519;
+}
+
+h3 {
+    color: #F20519;
+}
+
+p {
+    text-align: justify;
+}
+
+strong {
+    color: black;
+    font-weight: 600;
+}
+
+    /*-------------SCROLLBAR-------------*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+    
+::-webkit-scrollbar-track {
+    background-color: #F8F8F8;
+}
+    
+::-webkit-scrollbar-thumb {
+    background: #D9303E; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #940410; 
+}
+
+    /*-------------MENU-------------*/ 
+.titlelink {
+    color: #F20519;
+}
+
+.titlelink:link {
+    color: #F20519;
+}
+
+.titlelink:active {
+    color: #F20519;
+}
+
+.titlelink:visited {
+    color: #F20519;
+}
+
+.titlelink:hover {
+    color: #F20519;
+}
+
+.pagetitle {
+    margin-bottom: 3px;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: lowercase;
+}
+    
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    display: block;
+    color: #202020;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #F8F8F8;
+    border-radius: 20px;
+    border: 1.5px solid #202020;
+    padding-top: 9px;
+    padding-bottom: 10px;
+}
+
+.navbar li a:hover {
+    color: #F20519;
+    background-color: #202020;
+}
+
+    /*-------------LINKS GERAIS-------------*/
+a:link {
+    color: #049DD9;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #0477BF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #940410; 
+    text-decoration: none; 
+}
+
+a:active {
+    color: #F20519; 
+    text-decoration: none; 
+}
+
+    /*-------------INDEX-------------*/
+.index {
+    width: 900px;
+    padding: 10px;
+    margin: auto;
+}
+
+.sobre {
+    text-align: center;
+    color: black;
+}
+
+.sobrep {
+    font-style: italic;
+}
+
+.sobrep:hover {
+    color: #0477BF;
+}
+
+.sobrep::first-letter {
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+}
+
+.shineesback {
+    font-weight: 900;
+}
+
+.ee {
+    font-size: 38px;
+}
+
+.imgdcm {
+    width: 40%;
+    float: left;
+    margin-top: 8px;
+}
+
+    /*-------------ORIGEM-------------*/
+.origem {
+    width: 930px;
+    padding: 10px;
+    margin: auto;
+}
+
+#origemtitle {
+    color: black;
+    margin: 35px;
+    margin-bottom: -10px;
+}
+
+.a {
+    width: 400px;
+    border: 1px solid #C8C8C8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#shinee {
+    font-size: 40px;
+    margin-bottom: -10px;
+}
+
+.b li {
+    list-style-type: lower-roman;
+}
+
+img {
+    float: left;
+    width: 42.5%;
+    padding: 0 10px 0 0;
+}
+
+.img3 {
+    display: block;
+    width: 100%;
+}
+
+.img4 {
+    width: 55%;
+}
+
+.img5 {
+    float: right;
+    width: 45%;
+    margin-left: 13px;
+}
+
+.img6 {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.legenda {
+    font-style: italic;
+    font-size: 18px;
+}
+
+q {
+    font-style: oblique;
+}
+
+.itensalbum {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#tabela {
+    text-align: center;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+table {
+    width: 70%;
+    border-spacing: 5px;
+    text-align: center;
+}
+
+table.center {
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+table, th, td {
+    border: 1px solid #D3D3D3;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 12px;
+}
+
+tr:nth-child(even) {
+    background-color: #E8E8E8;
+}
+
+hr {
+    border-top: 1px solid #F20519;
+}
+
+.c li {
+    list-style-type: square;
+}
+
+.d li {
+    list-style-type: square;
+}
+
+.e {
+    border: 1px solid #D3D3D3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 260px;
+}
+
+.e li:hover {
+    color: #D9303E;
+}
+    /*-------------QUIZ-------------*/
+.quiz {
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+}
+
+.campoquiz {
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.pergunta {
+    font-weight: bold;
+    color: #0477BF;
+}
+
+li {
+    color: black;
+}
+
+input, select, textarea {
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.campo {
+    margin-bottom: 16px;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    display: block;
+}
+
+.campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #105773;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+textarea {
+    width: 320px;
+}
+
+.campo select:focus, .campo textarea:focus {
+    background: #f7c7c7;
+}
+
+button {
+    border-radius: 20px;
+}
+
+.botao {
+    background-color: #0477BF;
+    border: 2px solid #0477BF;
+    color: white;
+    padding: 8px 18px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background: white;
+    color: #0477BF;
+    border: 2px solid #0477BF;
+}
+
+    /*-------------REFERÊNCIAS-------------*/
+.referencias {
+    width: 700px;
+    padding: 10px;
+    margin: auto;
+}
+
+.referencia {
+    border: 1px solid #D3D3D3;
+    border-radius: 0px;
+    height: 410px;
+    width: 620px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    background-color: #F8F8F8;
+    overflow-y: scroll;
+}
+
+.textoref {
+    padding: 10px;
+    margin-top: -13px;
+    padding-right: 12px;
+}
+
+.titleref {
+    padding-left: 20px;
+    color: black;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.imagemref {
+    float: left;
+    width: 52%;
+    padding-left: 12px;
+}
+
+.fontesreftitle {
+    font-size: 25px;
+    margin-bottom: -10px;
+    margin-left: 35px;
+}
+.fontesref {
+    list-style-type: none;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.fontesref li {
+    display: inline-block;
+}
+
+.fontesref li a {
+    display: block;
+    color: white;
+    background-color: #F20519;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.fontesref li a:hover {
+    background-color: #0477BF;
+}

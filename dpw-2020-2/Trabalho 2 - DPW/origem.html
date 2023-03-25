@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho 2 – DPW</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="origem.css">
+</head>
+<body>
+    <!--MENU DE NAVEGAÇÃO-->
+    <nav class="navbar">
+        <div class="div-icon">
+            <a href="index.html" target="_self">
+                <img class="logo" src="imagens/ow_logo.png" alt="Logo Overwatch" style="height: 50px;">
+            </a>
+        </div>
+        <ul class="navlinks" id="navlist" style="background-color: #353C40;">
+            <li class="list-item"><a href="index.html" target="_self">Overwatch Store</a></li>
+            <li class="list-item"><a href="produtos.html" target="_self">Produtos</a></li>
+            <li class="list-item"><a href="origem.html" target="_self">Origem</a></li>
+            <li class="list-item"><a href="quiz.html" target="_self">Quiz</a></li>
+            <li class="list-item"><a href="referencias.html" target="_self">Referências</a></li>
+        </ul>
+        <div class="menu" id="toggle-button">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+        </div>
+    </nav>
+    
+    <!--MENU COM LINKS INTERNOS-->
+    <main class="origem">
+        <h2 id="origemtitle">Origem</h2>
+        <ol class="a">
+            <li>
+                <a href="#sobre">Sobre o jogo</a>
+                <ol class="b">
+                    <li><a href="#jogabilidade">Jogabilidade</a></li>
+                    <li><a href="#modosjogo">Modos de Jogo</a></li>
+                    <li><a href="#personagens">Personagens</a></li>
+                </ol>
+            </li>
+        </ol>
+        
+        <!--CONTEÚDO-->
+        <section>
+            <h2 id="sobre">Sobre o jogo</h2>
+            <p>Overwatch é um jogo eletrônico multiplayer de tiro em primeira pessoa desenvolvido e publicado pela Blizzard Entertainment. Foi lançado em 24 de maio de 2016 para Microsoft Windows, PlayStation 4 e Xbox One e em 15 de outubro de 2019 para Nintendo Switch. Descrito como um "hero shooter", Overwatch designa jogadores em dois times de seis, com cada jogador tendo liberdade em escolher mais de 30 personagens, conhecidos como "heróis", cada um com um estilo de jogo único, dividido em três papéis gerais adequados ao seu objetivo. Os jogadores de uma equipe trabalham juntos para proteger e defender pontos de controle em um mapa ou acompanhar uma carga útil pelo mapa em um período limitado de tempo. Os jogadores ganham recompensas cosméticas que não afetam a jogabilidade, como as skins de personagens e as poses de vitória, enquanto jogam. O jogo foi lançado inicialmente apenas como um título causal, mas um modo competitivo, vários modos de jogo 'arcade' e um navegador de servidor personalizável para jogadores foram adicionados após o lançamento. Além disso, a Blizzard adicionou novos personagens, mapas e modos de jogo após o lançamento, todos gratuitos, com o único custo adicional para os jogadores sendo loot boxes opcionais para ganhar itens cosméticos.
+            </p>
+            <picture>
+                <source media="(max-width:560px)" srcset="imagens/gameplay3.jpg" type="image/png">
+                <source media="(max-width:900px)" srcset="imagens/gameplay2.jpg" type="image/png">
+                <img src="imagens/gameplay.jpg" alt="Gameplay de Overwatch">
+            </picture>
+        </section>
+
+        <!--JOGABILIDADE-->
+        <section>
+            <h2 id="jogabilidade">Jogabilidade</h2>
+            <p>Overwatch possui um combate de equipe com dois times rivais compostos de seis jogadores cada. Os jogadores podem escolher um dos vários heróis, cada qual com suas próprias habilidades e função de classe. As três funções principais de personagens incluem: personagens ofensivos que em sua grande maioria possuem alta velocidade e ataque, mas baixa defesa, personagens de suporte que fornecem "buffs" e "debuffs" para seus aliados e inimigos respectivamente (como cura ou alterações na velocidade de movimento), e personagens Tanque, que têm uma grande quantidade de armadura e pontos de vida para resistirem a ataques e atrair o fogo inimigo para longe de seus companheiros. Assim que morrem, os jogadores podem alternar entre personagens durante a partida, o que é incentivado pelo design do jogo. Os mapas do jogo são inspirados em locais do mundo real; os três primeiros mapas revelados ("King's Row", "Hanamura", "Templo de Anubis") são inspirados em Londres, Japão, e nas ruínas do Antigo Egito, respectivamente.
+            </p>
+        </section>
+
+        <!--CAROUSEL-->
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="imagens/kingsrow.jpg" style="width:100%" alt="King's Row">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="imagens/hanamura.jpg" style="width:100%" alt="Hanamura">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="imagens/templeofanubis.jpg" style="width:100%" alt="Temple of Anubis">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="imagens/ilios.jpg" style="width:100%" alt="Ilios">
+            </div>
+            <div class="mySlides fade">
+                <img src="imagens/busan.jpg" style="width:100%" alt="Ilios">
+            </div>
+        </div>
+        <br>
+
+        <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span>
+        <span class="dot"></span>
+        </div>
+        
+        <!--MODOS DE JOGO-->
+        <section>
+            <h3 id="modosjogo">Modos de jogo</h3>
+            <p>Overwatch atualmente possui quatro modos de jogo, incluindo um híbrido de ataque e escolta:</p>
+            <ul>
+                <li><strong>Ataque</strong>: A equipe atacante é encarregada de capturar dois pontos de objetivo no mapa, enquanto a equipe defensiva deve detê-los.</li>
+                <li><strong>Escolta</strong>: A equipe atacante é encarregada de escoltar uma carga para um determinado ponto de entrega antes do tempo acabar, enquanto a equipe de defesa deve detê-los. A carga se move ao longo de um caminho fixo quando qualquer jogador da equipe atacante está próximo a ele.</li>
+                <li><strong>Ataque/Escolta</strong>: A equipe atacante tem que capturar a carga e levá-la ao seu destino, enquanto que a equipe defensiva tenta impedi-los.
+                </li>
+                <li><strong>Controle</strong>: Cada equipe tenta capturar e assegurar um objetivo em comum, até o percentual de captura chegar em 100%. Este modo de jogo ocorre em formato de melhor-de-três, ganha a equipe que vencer dois rounds primeiro.</li>
+            </ul>
+        </section>
+
+        <!--PERSONAGENS-->
+        <section>
+            <h3 id="personagens">Personagens</h3>
+            <p>Os personagens em Overwatch possuem três funções: Dano, Tanque e Suporte. Essas funções servem para categorizar os heróis da Overwatch por características semelhantes, que podem ser usadas para descrevê-los e o seu estilo de jogo. A primeira aparição de um personagem de Overwatch em um jogo já lançado foi em 19 de abril de 2016, no <span class="tooltip">Heroes of the Storm<span class="tooltiptext">Heroes of the Storm é um jogo eletrônico de multiplayer online desenvolvido pela Blizzard Entertainment para as plataformas Microsoft Windows e OS X. A base do jogo é uma combinação dos heróis de outros jogos da Blizzard, como os da série Warcraft, Diablo e StarCraft.</span></span>.</p>
+
+            <ul>
+                <li><strong>Dano</strong>: Personagens de dano têm alta mobilidade e são conhecidos por sua capacidade de causar grandes quantidades de dano. Para equilibrar isso, personagens de dano têm um baixo número de pontos de vida. Ao todo, existem 16 personagens de Dano no jogo.</li>
+                <li><strong>Tanque</strong>: de todos os personagens do jogo, os personagens Tanque são os que mais possuem pontos de vida. Devido a isso, eles são capazes de chamar a atenção do inimigo para longe de seus companheiros de equipe, também como para atrapalhar o time inimigo. Ao todo, existem 8 personagens Tanque no jogo.</li>
+                <li><strong>Suporte</strong>: personagens de Suporte são personagens que têm habilidades que melhoram a sua própria equipe e/ou enfraquecem o inimigo. Eles podem não ser os que causam mais dano ou possuem mais pontos de vida, mas os buffs e debuffs que fornecem garantem que seus companheiros de equipe terão menos trabalho para lidar com adversários.Personagens Suportes podem repor os pontos de vida, aplicar uma melhoria de dano, fornecer armadura ou até acelerar os companheiros de equipe. Ao todo, existem 7 personagens de Suporte no jogo.</li>
+            </ul>
+
+            <img src="imagens/ow_heroes.png" alt="Heróis de Overwatch">
+        </section>
+
+        <!--TABELA PERSONAGENS-->
+        <div class="table-div">
+            <table class="center">
+                <caption id="tabela">Heróis de Overwatch</caption>
+                <tr>
+                    <th>Tanque</th>
+                    <th>Dano</th>
+                    <th>Suporte</th>
+                </tr>
+                <tr>
+                    <td>D.Va</td>
+                    <td>Ashe</td>
+                    <td>Ana</td>
+                </tr>
+                <tr>
+                    <td>Orisa</td>
+                    <td>Bastion</td>
+                    <td>Baptiste</td>
+                </tr>
+                <tr>
+                    <td>Reinhardt</td>
+                    <td>Doomfist</td>
+                    <td>Briggite</td>
+                </tr>
+                <tr>
+                    <td>Roadhog</td>
+                    <td>Echo</td>
+                    <td>Lúcio</td>
+                </tr>
+                <tr>
+                    <td>Sigma</td>
+                    <td>Genji</td>
+                    <td>Mercy</td>
+                </tr>
+                <tr>
+                    <td>Winston</td>
+                    <td>Hanzo</td>
+                    <td>Moira</td>
+                </tr>
+                <tr>
+                    <td>Wrecking Ball</td>
+                    <td>Junkrat</td>
+                    <td>Zenyatta</td>
+                </tr>
+                <tr>
+                    <td>Zarya</td>
+                    <td>McCree</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>Mei</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>Pharah</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>Reaper</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>Soldier 76</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>Sombra</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>Symmetra</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>Torbjörn</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>Tracer</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>Widowmaker</td>
+                    <td>-</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+
+    <!--FOOTER-->
+    <footer class="footer" style="padding-top: 35px; padding-bottom: 35px;">
+        <p class="footer-item">Priscilla Souza, 2021</p>
+        <p class="footer-item">Desenvolvimento de Páginas Web</p>
+        <p class="footer-item">BSI - UNIRIO</p>
+    </footer>
+    
+    <!--JAVASCRIPT-->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+    /*-------------INDEX-------------*/
+.botao {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 8px 18px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background:#F2A922;
+    color: white;
+    border: 2px solid #F2A922;
+}
+
+.tooltip {
+    border-bottom: 1px dotted white;
+}
+
+/*--BANNER--*/
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+.hero-image {
+    background-image: url("imagens/banner1_copy.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-95%, -50%);
+    color: white;
+}
+
+@media all and (max-width: 500px) {
+    .hero-text {
+        transform: translate(-73%, -50%);
+    }
+}
+
+@media all and (max-width: 490px) {
+    .hero-image {
+        background-image: url("imagens/banner1_2.jpg");
+    }
+    .hero-text {
+        transform: translate(-55%, -50%);
+    }
+}
+
+/*--SOBRE O SITE--*/
+.sobre-site {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("imagens/busan3.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.sobre-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+@media all and (max-width: 490px) {
+    .sobre-site {
+        height: 65%;
+    }
+}
+    /*----BANNER COMPRE AGORA----*/
+.buynow {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("imagens/1820127.jpg");
+    height: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.bn-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+    /*----COUNTDOWN EVENTO----*/
+.event {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("imagens/anniversary.jpg");
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.event-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#evento {
+    text-align: center;
+    font-size: 30px;
+}
